@@ -1,0 +1,354 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200&display=swap');
+#logo{
+    width:250px;
+    height: 70px;
+  
+}
+body{
+    margin:0;
+}
+nav {
+    display:flex;
+    justify-content: space-around;
+    background-color: white;
+    align-items: center;
+    position: fixed;
+    width:100vw;
+}
+.menu{
+    display:flex;
+}
+.menu-item{
+    list-style: none;
+    margin-right: 20px;
+    /* font-family:Roboto, Arial, sans-serif; 
+    font-size: 15px;
+    font-weight:400 ; */
+    font: 400 15px Roboto, Arial, sans-serif;
+    line-height:30px ;
+    color:gray;
+
+   
+}
+
+.drop-menu{
+    display: none;
+}
+
+.menu-item:hover .drop-menu{
+    /* display: flex;
+    flex-direction: column; */
+    display: block;
+    position: absolute;
+    list-style: none;
+    background-color: white;
+    width:200px;
+    height:220px;
+    margin-left: -100px;
+   padding-right: 20px;
+   line-height: 40px;
+   box-shadow: 0px 0px 10px #ddd;
+}
+.title{
+    text-align: center;
+    padding-top:100px;
+}
+.title h1{
+    font:300 34px "Work Sans", Arial, sans-serif;
+    line-height: 44.2px ;
+    color:rgb(0, 179, 155);
+}
+.info{
+    display:flex;
+    justify-content: space-around;
+    width:1000px;
+    margin-left:auto;
+    margin-right: auto;
+}
+.info p {
+    width:450px;
+    font: 400 16px Roboto, Arial, sans-serif;
+    line-height: 28px;
+    color: rgb(192, 192, 192);
+}
+.espace{
+    height: 40px;
+}
+.service{
+  vertical-align: middle;
+    display : flex;
+    justify-content: space-around;
+    margin-left:auto;
+    margin-right: auto;
+    width:1000px;
+}
+.patient {
+    text-align:center;
+    width:300px;
+    height: 365px; 
+    color: #fff;
+    text-shadow: none;
+    background: #00b39b;
+    border-radius: 6px;
+   
+}
+
+.doctor{
+    text-align:center;
+    width:300px;
+    height: 365px; 
+    color: #fff;
+    text-shadow: none;
+    background-color: #1662c6;
+    border-radius: 6px;
+
+}
+.clinics{
+    text-align:center;
+    width:300px;
+    height: 365px; 
+    color: #fff;
+    text-shadow: none;
+    background-color: #333;
+    border-radius: 6px;
+
+}
+.patient h1,.doctor h1,.clinics h1{
+    color: white;
+   }
+
+.companies-icons{
+    width: 794px;
+    height: 153px;
+    display : flex;
+    justify-content: space-around;
+   
+    margin-top: 2.5rem;
+    margin-right: auto;
+    margin-bottom: 3.125rem;
+    margin-left: auto;
+
+}
+.companys{
+ width: 250px;
+ height: 153px;
+ font-family:"Work Sans", Arial, sans-serif ;
+ font-size: 26px;
+font-weight: 300;
+line-height: 33.8px;
+color: rgb(0, 179, 155);
+}
+.icons{
+    display : flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 67%;
+    list-style: none;
+    text-decoration: none;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20.8px;
+    color: rgb(61, 131, 223);
+}
+
+
+.platform {
+  background: rgb(224, 249, 247);
+  display: flex;
+}
+.platform .model .image {
+  margin-bottom: 0px;
+  margin-right: 100px;
+  margin-top: 100px;
+}
+.platform .model .model-1 p {
+  width: 300;
+  font-family: "Work Sans", Arial, sans-serif;
+  color: rgb(0, 179, 155);
+  margin-right: 200px;
+  margin-left: 200px;
+
+  font-size: 34px;
+  font-weight: 300;
+    line-height:  44.2px;
+   color: rgb(0, 179, 155);
+}
+.platform .model .model-mini p {
+  width: 400;
+  font-size: 14px 24px Roboto, Arial, sans-serif;
+  color: rgb(116, 116, 116);
+  margin-left: 200px;
+  margin-right: 100px;
+}
+.platform .platform-world {
+  justify-content: space-between;
+  margin-right: auto;
+  margin-left: auto;
+  flex-wrap: wrap;
+}
+.platform .platform-world .leader {
+  background-color: white;
+  border-radius: 15px;
+  width: 250px;
+  height: 250px;
+}
+.platform .platform-world .leader .ledrer11 h3 {
+  width: 300px;
+  font-size: 24px 31.2px Arial, sans-serif;
+  color: rgb(0, 179, 155);
+  margin-left: 70px;
+}
+.platform .platform-world .leader p {
+  width: 400px;
+  font-size: 13px 16.9px Roboto, Arial, sans-serif;
+  color: rgb(116, 116, 116);
+  margin-left: 10px;
+  margin-right: auto;
+  margin-bottom: 50px;
+}
+.platform .platform-world .leader .image {
+  margin-left: 100px;
+  margin-top: 10px;
+}
+.platform .platform-world .milon-3 {
+  background-color: white;
+  border-radius: 15px;
+  width: 250px;
+  height: 250px;
+}
+.platform .platform-world .milon-3 .image {
+  margin-left: 100px;
+  margin-top: 10px;
+}
+.platform .platform-world .milon-3 p {
+  width: 400px;
+  font-size: 13px 16.9px Roboto, Arial, sans-serif;
+  color: rgb(116, 116, 116);
+  margin-left: 10px;
+  margin-right: auto;
+  margin-bottom: 50px;
+}
+.platform .platform-world .milon-3 h3 {
+  width: 300px;
+  font-size: 24px 31.2px Arial, sans-serif;
+  color: rgb(0, 179, 155);
+  margin-left: 70px;
+}
+.platform .platform-world .mln-4 {
+  background-color: white;
+  border-radius: 15px;
+  width: 250px;
+  height: 250px;
+}
+.platform .platform-world .mln-4 .image {
+  margin-left: 100px;
+  margin-top: 10px;
+}
+.platform .platform-world .mln-4 h3 {
+  width: 300px;
+  font-size: 24px 31.2px Arial, sans-serif;
+  color: rgb(0, 179, 155);
+  margin-left: 70px;
+}
+.platform .platform-world .mln-4 p {
+  width: 400px;
+  font-size: 13px 16.9px Roboto, Arial, sans-serif;
+  color: rgb(116, 116, 116);
+  margin-left: 10px;
+  margin-right: auto;
+  margin-bottom: 50px;
+}
+.platform .platform-world .million-2 {
+  background-color: white;
+  border-radius: 15px;
+  width: 250px;
+  height: 250px;
+}
+.platform .platform-world .million-2 .image {
+  margin-left: 100px;
+  margin-top: 10px;
+}
+.platform .platform-world .million-2 h3 {
+  width: 300px;
+  font-size: 24px 31.2px Arial, sans-serif;
+  color: rgb(0, 179, 155);
+  margin-left: 70px;
+}
+.platform .platform-world .million-2 p {
+  width: 400px;
+  font-size: 13px 16.9px Roboto, Arial, sans-serif;
+  color: rgb(116, 116, 116);
+  margin-left: 10px;
+  margin-right: auto;
+  margin-bottom: 50px;
+}
+.platform-world {
+  display: flex;
+  flex-wrap: wrap;
+  width: 700px;
+}
+h1 {
+  color: #00b39b;
+}
+.photos {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1000px;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .button {
+    display: flex;
+    justify-content: space-around;
+    width: 300;
+    height: 400;
+  }
+  button {
+    background-color: rgb(81, 144, 226);
+    color: white;
+    width: 150px;
+    height: 40px;
+    border-radius: 3px;
+  }
+.question .join {
+    font-family: "Work Sans", Arial, sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 39px;
+     color: rgb(51, 51, 51);
+     text-align: center;
+
+}
+.button2{
+    background-color: rgb(81, 144, 226);
+    color: white;
+    width: 150px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 3px;
+}
+
+footer{
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15.6px;
+     color: rgb(171, 171, 171);
+     text-align: center;
+     
+
+}
+.contry{
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15.6px;
+     color:rgb(10, 101, 185);
+     text-align: center;
+
+
+}
